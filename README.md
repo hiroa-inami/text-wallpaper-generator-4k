@@ -48,3 +48,7 @@ everything else is MIT
 - Font creator on Google Fonts for beautiful fonts
 - [Github](https://github.com/) for generous infrastructure
 - [Rust Foundation](https://foundation.rust-lang.org/) for creating Rust
+
+# Author
+[hiroa](https://github.com/hiroa-inami/)
+[Repository](https://github.com/hiroa-inami/text-wallpaper-generator-4k) 
