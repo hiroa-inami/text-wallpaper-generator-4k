@@ -38,3 +38,7 @@ will generate executable
 # How it works
 [code](https://github.com/hiroa-inami/text-wallpaper-generator-4k/blob/main/src/main.rs) is a single file with 140 lines  
 Read only comments, which start with //
+
+# about LICENSE
+main.rs is MIT
+each font has its license
