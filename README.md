@@ -40,5 +40,5 @@ will generate executable
 Read only comments, which start with //
 
 # about LICENSE
-main.rs is MIT
+main.rs is MIT  
 each font has its license
