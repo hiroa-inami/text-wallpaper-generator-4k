@@ -12,3 +12,6 @@ serde = { version = "1.0.216", features = ["derive"] }
 toml = "0.8.19"
 walkdir = "2.5.0"
 ab_glyph = "0.2.29"
+
+[profile.dev]
+opt-level = 2
