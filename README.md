@@ -42,3 +42,9 @@ Read comments, which start with //
 # about LICENSE
 each font has its license  
 everything else is MIT  
+
+# Thank you
+- [Google Fonts](https://fonts.google.com/) for awesome platform
+- Font creator on Google Fonts for beautiful fonts
+- [Github](https://github.com/) for generous infrastructure
+- [Rust Foundation](https://foundation.rust-lang.org/) for creating Rust
