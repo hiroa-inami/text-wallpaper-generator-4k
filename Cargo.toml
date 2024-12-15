@@ -1,6 +1,14 @@
 [package]
-name = "wallpaper_generator"
+name = "text-wallpaper-generator-4k"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+image = "0.25.5"
+imageproc = "0.25.0"
+rand = "0.8.5"
+rusttype = "0.9.3"
+serde = { version = "1.0.216", features = ["derive"] }
+toml = "0.8.19"
+walkdir = "2.5.0"
+ab_glyph = "0.2.29"

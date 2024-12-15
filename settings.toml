@@ -1,0 +1,16 @@
+texts = [
+    "Hello, World", 
+    "Rust", 
+    "Lorem Ipsum", 
+    "Lorem ipsum dolor sit amet", 
+    "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+]
+num_wallpapers_per_text = 3
+width = 3840
+height = 2160
+
+[color_range]
+r = [0, 64]  # Red channel range
+g = [0, 32]  # Green channel range
+b = [0, 32] # Blue channel range
+
