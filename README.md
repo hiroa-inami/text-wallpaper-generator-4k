@@ -16,7 +16,7 @@ Rust script to generate 4k resolution wallpapers with text on a solid color back
 
 # How to use
 Win users can use pre-built exe
-1. Download [text-wallpaper-generator-4k_0.1.0_WIN.zip](https://github.com/hiroa-inami/text-wallpaper-generator-4k/releases/download/0.1.0/text-wallpaper-generator-4k_0.1.0_WIN.zip
+1. download [text-wallpaper-generator-4k_0.1.0_WIN.zip](https://github.com/hiroa-inami/text-wallpaper-generator-4k/releases/download/0.1.0/text-wallpaper-generator-4k_0.1.0_WIN.zip
 ) and extract it
 2. edit settings.toml with notepad (Optional)
 3. add your favorite font to fonts folder (Optional)
