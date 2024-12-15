@@ -21,6 +21,10 @@ Only for Win user
 3. add your favorite font to fonts folder (Optional)
 4. run exe
 
+# How it works
+[code](https://github.com/hiroa-inami/text-wallpaper-generator-4k/blob/main/src/main.rs) is a single file with 140 lines  
+comments will help you
+
 # How to build
 Install [Rust](https://www.rust-lang.org/tools/install)  
 clone repo and 
