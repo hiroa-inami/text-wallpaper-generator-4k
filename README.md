@@ -1,4 +1,4 @@
-![Preview](./preview.png)
+![Preview](./cargo/preview.png)
 
 # text-wallpaper-generator-4k 
 Rust script to generate 4k resolution wallpapers with text on a solid color background.
