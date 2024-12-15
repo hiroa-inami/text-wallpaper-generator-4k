@@ -23,7 +23,7 @@ Only for Win user
 
 # How it works
 [code](https://github.com/hiroa-inami/text-wallpaper-generator-4k/blob/main/src/main.rs) is a single file with 140 lines  
-comments will help you
+Read only comments, which start with //
 
 # How to build
 Install [Rust](https://www.rust-lang.org/tools/install)  
