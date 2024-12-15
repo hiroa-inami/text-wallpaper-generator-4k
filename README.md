@@ -1,5 +1,5 @@
 # text-wallpaper-generator-4k 
-Rust script to generate 4k resolution wallpapers with texts on a solid color background.
+Rust script to generate 4k resolution wallpapers with text on a solid color background.
 * Text into wallpaper
   * The text list is configurable in settings.toml
 * Randomized solid color background
@@ -8,7 +8,7 @@ Rust script to generate 4k resolution wallpapers with texts on a solid color bac
   * Fonts will be placed under the fonts folder
   * Free to add/remove
 * Any size
-  * Wallpaper sise is configurable in settings.toml
+  * Wallpaper size is configurable in settings.toml
 * Generate a certain number of wallpaper with each text
   * The number is configurable in the settings.toml
 
@@ -19,7 +19,7 @@ Rust script to generate 4k resolution wallpapers with texts on a solid color bac
 4. run exe
 
 # How to build
-It's just a simple cargo
+It's just a simple cargo  
 clone repo and 
 ```
 cargo run
