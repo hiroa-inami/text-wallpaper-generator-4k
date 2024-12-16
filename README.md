@@ -49,7 +49,7 @@ configure your resolution in settings.toml
 
 # How to use
 Win users can use pre-built exe
-1. download [text-wallpaper-generator-4k_0.1.0_WIN.zip](https://github.com/hiroa-inami/text-wallpaper-generator-4k/releases/download/0.1.0/text-wallpaper-generator-4k_0.1.0_WIN.zip
+1. download [text-wallpaper-generator-4k_0.2.0_WIN.zip](https://github.com/hiroa-inami/text-wallpaper-generator-4k/releases/download/0.2.0/text-wallpaper-generator-4k_0.2.0_WIN.zip
 ) and extract it
 2. edit settings.toml with notepad (Optional)
 3. add/remove fonts in fonts folder (Optional)
