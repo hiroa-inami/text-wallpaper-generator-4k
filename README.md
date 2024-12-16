@@ -19,9 +19,8 @@ Win users can use pre-built exe
 1. download [text-wallpaper-generator-4k_0.1.0_WIN.zip](https://github.com/hiroa-inami/text-wallpaper-generator-4k/releases/download/0.1.0/text-wallpaper-generator-4k_0.1.0_WIN.zip
 ) and extract it
 2. edit settings.toml with notepad (Optional)
-3. add your favorite font to fonts folder (Optional)
+3. add/remove fonts in fonts folder (Optional)
 4. run exe
-
 
 # How to build
 Install [Rust](https://www.rust-lang.org/tools/install)  
@@ -48,7 +47,7 @@ hiroa ([github.com/hiroa-inami](https://github.com/hiroa-inami/))
 [github.com/hiroa-inami/text-wallpaper-generator-4k](https://github.com/hiroa-inami/text-wallpaper-generator-4k)  
 [hiroa-inami.github.io/text-wallpaper-generator-4k](https://hiroa-inami.github.io/text-wallpaper-generator-4k/)
 
-# Thank you
+# Thank you.
 - [Google Fonts](https://fonts.google.com/) for awesome platform
 - Font creator on Google Fonts for beautiful fonts
 - [Github](https://github.com/) for generous infrastructure

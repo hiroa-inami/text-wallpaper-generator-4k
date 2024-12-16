@@ -8,6 +8,7 @@ use std::fs;
 use toml;
 use ab_glyph;
 use std::collections::HashMap;
+use std::path::Path;
 
 #[derive(Deserialize)]
 struct ColorRange {
@@ -40,7 +41,12 @@ fn main() {
             let width = settings.width;
             let height = settings.height;
             // b. Choose random font
-            let (font_data, font) = fonts.values().choose(&mut rand::thread_rng()).unwrap();
+            let (font_path, (font_data, font)) = fonts.iter().choose(&mut rand::thread_rng()).unwrap();
+            
+            let font_name = Path::new(font_path)
+            .file_stem()
+            .and_then(|s| s.to_str())
+            .unwrap_or("unknown_font");
 
             // c. Create image
             let mut image = RgbImage::new(width, height);
@@ -52,18 +58,18 @@ fn main() {
 
             // d. Calculate font scale and draw text
             let scale = calculate_font_scale(&font, &text, width, height);
-            let text_width: u32 = text_width(&font, scale, &text);
+            let text_width = text_width(&font, scale, &text);
             let text_height = text_height(&font, scale);
 
-            let x = (width - text_width) / 2;
-            let y = (height - text_height) / 2;
+            let x = (width.saturating_sub(text_width)) / 2;
+            let y = (height.saturating_sub(text_height)) / 2;
             let px_scale = ab_glyph::PxScale::from(scale.x);
             let font: ab_glyph::FontRef<'_> = ab_glyph::FontRef::try_from_slice(font_data).unwrap();
 
             draw_text_mut(&mut image, Rgb([255,255,255]), x.try_into().unwrap(), y.try_into().unwrap(), px_scale, &font, &text);
 
             // e. Save the image
-            let filename = format!("wallpaper_{}_{}.png", text, i + 1);
+            let filename = format!("wallpaper_{}_{}_{}.png", text, font_name, i + 1);
             println!("Generating: {}", filename);
             image.save(filename).expect("Failed to save image");
         }
