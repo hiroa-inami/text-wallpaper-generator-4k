@@ -40,6 +40,13 @@ configure your resolution in settings.toml
 | 5120x1440 | 32:9 | Super Ultrawide Dual QHD |
 | 7680x4320 | 16:9 | 8K Ultra HD |
 
+# Known limitation
+- Can't handle all special Unicode character
+  - Will not solve this
+    - draw_text_mut() can't handle special character well
+    - I tried but seems problem is in library. Tried another solution but can't solve the problem
+    - My current stance is supporting rare usecase is not worth the time  
+
 # How to use
 Win users can use pre-built exe
 1. download [text-wallpaper-generator-4k_0.1.0_WIN.zip](https://github.com/hiroa-inami/text-wallpaper-generator-4k/releases/download/0.1.0/text-wallpaper-generator-4k_0.1.0_WIN.zip
