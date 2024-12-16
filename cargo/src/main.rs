@@ -1,4 +1,3 @@
-use ab_glyph::Font as _;
 use image::{Rgb, RgbImage};
 use imageproc::drawing::draw_text_mut;
 use rand::seq::IteratorRandom;
@@ -10,7 +9,6 @@ use toml;
 use ab_glyph;
 use std::collections::HashMap;
 use std::path::Path;
-use raqote::*;
 
 #[derive(Deserialize)]
 struct ColorRange {
