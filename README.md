@@ -80,7 +80,7 @@ cargo build --release
 ```
 will generate executable 
 # How it works
-[code](https://github.com/hiroa-inami/text-wallpaper-generator-4k/blob/main/src/main.rs) is a single file with 140 lines  
+[code](https://github.com/hiroa-inami/text-wallpaper-generator-4k/blob/main/cargo/src/main.rs) is a single file with 140 lines  
 Read comments, which start with //
 
 # about LICENSE
