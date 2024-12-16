@@ -14,6 +14,31 @@ Rust script to generate 4k resolution wallpapers with text on a solid color back
 * Generate multiple wallpapers with each text
   * The number is configurable in the settings.toml
 
+# Supported resolution examples
+Any size can be generated, even for smartphones.
+| Resolution | Aspect Ratio | Name |
+| :----- | :----- | :----- |
+| 800x600 | 4:3 | SVGA |
+| 1024x768 | 4:3 | XGA |
+| 1280x720 | 16:9 | HD or 720p |
+| 1280x800 | 16:10 | WXGA |
+| 1360x768 | 16:9 | WXGA+ |
+| 1366x768 | 16:9 | HD+ |
+| 1440x900 | 16:10 | WXGA+ |
+| 1536x864 | 16:9 | HD+ (variant) |
+| 1600x900 | 16:9 | HD+ |
+| 1920x1080 | 16:9 | Full HD (FHD) or 1080p |
+| 1920x1200 | 16:10 | WUXGA |
+| 1920x1280 | 3:2 | 3:2 Display |
+| 2560x1440 | 16:9 | Quad HD (QHD) |
+| 2560x1600 | 16:10 | WQXGA |
+| 2880x1800 | 16:10 | Retina WQXGA+ |
+| 3200x1800 | 16:9 | QHD+ |
+| 3440x1440 | 21:9 | Ultrawide QHD |
+| 3840x2160 | 16:9 | Ultra HD (UHD) or 4K |
+| 5120x1440 | 32:9 | Super Ultrawide Dual QHD |
+| 7680x4320 | 16:9 | 8K Ultra HD |
+
 # How to use
 Win users can use pre-built exe
 1. download [text-wallpaper-generator-4k_0.1.0_WIN.zip](https://github.com/hiroa-inami/text-wallpaper-generator-4k/releases/download/0.1.0/text-wallpaper-generator-4k_0.1.0_WIN.zip
