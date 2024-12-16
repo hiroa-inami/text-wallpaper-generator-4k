@@ -40,6 +40,18 @@ configure your resolution in settings.toml
 | 5120x1440 | 32:9 | Super Ultrawide Dual QHD |
 | 7680x4320 | 16:9 | 8K Ultra HD |
 
+# Pre-selected fonts zip 
+fonts_xxx.zip contains pre-selected fonts from Google Fonts. to use
+1. delete fonts folder
+2. extract fonts_xxx.zip
+3. make sure new 'fonts' folder is extracted in the same location as deleted fonts folder on step 1  
+default fonts is in fonts_English.zip
+
+fonts_Japanese.zip result
+![preview_japanese](./cargo/preview_japanese.png)
+
+
+
 # Known limitation
 - Can't handle all special Unicode character
   - Will not solve this
