@@ -15,7 +15,8 @@ Rust script to generate 4k resolution wallpapers with text on a solid color back
   * The number is configurable in the settings.toml
 
 # Supported resolution examples
-Any size can be generated, even for smartphones.
+Any size can be generated, even for smartphones.  
+configure your resolution in settings.toml
 | Resolution | Aspect Ratio | Name |
 | :----- | :----- | :----- |
 | 800x600 | 4:3 | SVGA |
