@@ -1,3 +1,4 @@
+use ab_glyph::Font as _;
 use image::{Rgb, RgbImage};
 use imageproc::drawing::draw_text_mut;
 use rand::seq::IteratorRandom;
@@ -9,11 +10,12 @@ use toml;
 use ab_glyph;
 use std::collections::HashMap;
 use std::path::Path;
+use raqote::*;
 
 #[derive(Deserialize)]
 struct ColorRange {
-    g: (u8, u8),
     r: (u8, u8),
+    g: (u8, u8),
     b: (u8, u8),
 }
 
@@ -30,7 +32,7 @@ fn main() {
     // 1. Load Settings
     let settings = load_settings("settings.toml");
 
-    // 2. Load Fonts
+    // 2. Load Fonts and store font data
     let fonts = load_fonts_with_data("fonts");
 
     // 3. Generate Wallpapers
@@ -40,7 +42,7 @@ fn main() {
             let color = generate_random_color(&settings.color_range);
             let width = settings.width;
             let height = settings.height;
-            // b. Choose random font
+            // b. Choose random font along with its data
             let (font_path, (font_data, font)) = fonts.iter().choose(&mut rand::thread_rng()).unwrap();
             
             let font_name = Path::new(font_path)
@@ -68,7 +70,7 @@ fn main() {
 
             draw_text_mut(&mut image, Rgb([255,255,255]), x.try_into().unwrap(), y.try_into().unwrap(), px_scale, &font, &text);
 
-            // e. Save the image
+            // e. Save the image with font name in filename
             let filename = format!("wallpaper_{}_{}_{}.png", text, font_name, i + 1);
             println!("Generating: {}", filename);
             image.save(filename).expect("Failed to save image");
