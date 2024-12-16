@@ -3,7 +3,6 @@ texts = [
     "Rust", 
     "Lorem Ipsum", 
     "Lorem ipsum dolor sit amet", 
-    "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 ]
 num_wallpapers_per_text = 3
 width = 3840
