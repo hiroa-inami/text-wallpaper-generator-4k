@@ -44,8 +44,8 @@ configure your resolution in settings.toml
 fonts_xxx.zip contains pre-selected fonts from Google Fonts. to use
 1. delete fonts folder
 2. extract fonts_xxx.zip
-3. make sure new 'fonts' folder is extracted in the same location as deleted fonts folder on step 1  
-default fonts is in fonts_English.zip
+3. make sure the new 'fonts' folder is extracted in the same location as the deleted fonts folder in step 1
+4. If you want to restore the default fonts, it's in fonts_English.zip
 
 fonts_Japanese.zip result
 ![preview_japanese](./cargo/preview_japanese.png)
@@ -55,9 +55,9 @@ fonts_Japanese.zip result
 # Known limitation
 - Can't handle all special Unicode character
   - Will not solve this
-    - draw_text_mut() can't handle special character well
-    - I tried but seems problem is in library. Tried another solution but can't solve the problem
-    - My current stance is supporting rare usecase is not worth the time  
+    - draw_text_mut() can't handle special characters well
+    - seems the problem is in a library. Tried another lib but couldn't solve the problem
+    - My current stance is supporting rare use cases is not worth the time  
 
 # How to use
 Win users can use pre-built exe
