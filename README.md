@@ -47,8 +47,8 @@ fonts_xxx.zip contains pre-selected fonts from Google Fonts. to use
 3. make sure the new 'fonts' folder is extracted in the same location as the deleted fonts folder in step 1
 4. If you want to restore the default fonts, it's in fonts_English.zip
 
-fonts_Japanese.zip result
-![preview_japanese](./cargo/preview_japanese.png)
+
+![fonts_Japanese.zip result](./cargo/preview_japanese.png)
 
 
 
