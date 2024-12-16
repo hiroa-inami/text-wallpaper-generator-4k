@@ -43,12 +43,13 @@ Read comments, which start with //
 each font has its license  
 everything else is MIT  
 
+# Author and Repository
+hiroa ([github.com/hiroa-inami](https://github.com/hiroa-inami/))  
+[github.com/hiroa-inami/text-wallpaper-generator-4k](https://github.com/hiroa-inami/text-wallpaper-generator-4k)
+
 # Thank you
 - [Google Fonts](https://fonts.google.com/) for awesome platform
 - Font creator on Google Fonts for beautiful fonts
 - [Github](https://github.com/) for generous infrastructure
 - [Rust Foundation](https://foundation.rust-lang.org/) for creating Rust
 
-# Author
-[hiroa](https://github.com/hiroa-inami/)
-[Repository](https://github.com/hiroa-inami/text-wallpaper-generator-4k) 
