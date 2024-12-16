@@ -85,7 +85,7 @@ Read comments, which start with //
 
 # about LICENSE
 each font has its license  
-everything else is MIT  
+main.rs is MIT  
 
 # Author and Github
 hiroa ([github.com/hiroa-inami](https://github.com/hiroa-inami/))  
